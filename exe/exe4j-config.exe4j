@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exe4j version="7.0" transformSequenceNumber="3">
+  <directoryPresets config="D:/code-store/Java/exe-app-computer/build/libs" />
+  <application name="exe_app_computer1.0.0" distributionSourceDir="D:/code-store/Java/exe-app-computer/exe" />
+  <executable name="exe_app_computer1.0.0" wrapperType="embed" iconSet="true" iconFile="D:/data-store/favicon-ymc/data/favicon.ico" executableDir="." executableMode="gui" singleInstance="true" />
+  <java mainClass="ymc.exe.app.Computer" preferredVM="client" minVersion="11" maxVersion="11">
+    <searchSequence>
+      <registry />
+      <envVar name="JAVA_HOME" />
+      <envVar name="JDK_HOME" />
+      <directory location="E:/Program Files/jdk-11.0.3_windows-x64_bin/jre" />
+    </searchSequence>
+    <classPath>
+      <archive location="D:/code-store/Java/exe-app-computer/build/libs/exe-app-computer.jar" failOnError="false" />
+    </classPath>
+  </java>
+</exe4j>
